@@ -4,7 +4,7 @@
 
 **Modelling a store functionality to add stock,buy/sell stock,track quantity of stock**
 
-**Override the .toString() method to display content a lot easier and compact**
+**Override .toString() method to display content a lot easier and compact**
 
 **Added simple verifications to prevent errors**
 
