@@ -24,11 +24,6 @@ public class ShoppingBasket {
         return 0;
     }
 
-    public Map<StockItem, Integer> items() {
-        return Collections.unmodifiableMap(list);
-    }
-
-
     public int buyItem(ShoppingBasket basket,StockList stockList, String item, int quantity) {
         StockItem stockItem = stockList.getItem(item);
         if (stockItem == null) {
